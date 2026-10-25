@@ -1,0 +1,36 @@
+:root {
+  --color-primary: #007bff;
+  --color-accent: #17a2b8;
+  --color-highlight: #ffc107;
+  --color-bg: #11a9db;
+  --color-text: #e0e0e0;
+  --color-border: #53ac44;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1111db;
+  color: var(--color-text);
+}
+
+.player-card{
+  margin: 40px auto;
+  padding: 20px;
+  border: 5px solid var(--color-border);
+  background-color: var(--color-bg);
+  max-width: 50%;
+  box-shadow: 5px 5px 10px var(--color-border);
+}
+*{
+  box-sizing: border-box;
+}
+.profile{
+  border-left: var(--color-text) 10px solid;
+  border-right: var(--color-accent) 10px solid;
+  border-top: var(--color-primary) 10px solid;
+  border-bottom: var(--color-highlight) 10px solid;
+  border-radius: 8px;
+  box-shadow: 10px 10px 3px var(--color-border);
+}
